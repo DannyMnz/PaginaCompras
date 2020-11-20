@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Pagina de La Tienda</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="js/paginajava.js"></script>
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+       <link rel="stylesheet" href="css/style.css" />
+       
+    </head>
+    <body style="background-color:#00FA9A;">
+       <div class="container">
+    <div class="row">
+        <!-- Elementos generados a partir del JSON -->
+        <main id="items" class="col-sm-6 row"></main>
+        <!-- Carrito -->
+        <aside class="col-sm-4">
+            <h2 p style="color:#FF00FF";>CarritodeCompras</h2>
+            <!-- Elementos del carrito -->
+            <ul id="carrito" class="list-group"></ul>
+            <hr>
+            <!-- Precio total -->
+            <p class="text-right"font face="Comic Sans MS" p style="color:#800000">Total: <span id="total"></span></p>
+            <button id="boton-vaciar" class="btn btn-vacarrito">VaciarCarrito</button>
+        </aside>
+    </div>
+</div>
+    </body>
+</html>
